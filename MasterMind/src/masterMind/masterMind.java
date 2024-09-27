@@ -17,18 +17,19 @@ public class masterMind {
 		String blauw = "blauw";
 		String paars = "paars";
 		String oranje = "oranje";
+		String niks = " - ";
 		
-		
-		String Code1 = "";
-		String Code2 = "";
-		String Code3 = "";
-		String Code4 = "";
+		String code1 = blauw;
+		String code2 = rood;
+		String code3 = geel;
+		String code4 = rood;
 		 
 		
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Maak een code met de beschikbare kleuren. rood, geel, groen, blauw, paars of oranje");
+		System.out.println("Welkom bij MasterMind");
 		System.out.println("Je hebt 10 kansen om de code te kraken");
+		System.out.println("Typ je code van 4 kleuren in in:");
 		
 		System.out.println("Code 1");
 		String mastermind1_1 = sc.next();
@@ -40,6 +41,95 @@ public class masterMind {
 		String codeControleren1_2 = "";
 		String codeControleren1_3 = "";
 		String codeControleren1_4 = "";
+		
+		
+        if (mastermind1_1.equals(code1)) {
+        	codeControleren1_1 = zwart;
+        }
+        
+        else if (mastermind1_1.equals(code2)) {
+        	codeControleren1_1 = wit;
+        }
+        
+        else if (mastermind1_1.equals(code3)) {
+        	codeControleren1_1 = wit;
+        }
+        
+        else if (mastermind1_1.equals(code4)) {
+        	codeControleren1_1 = wit;
+        }
+        
+        else {
+        	codeControleren1_1 = niks;
+        }
+        
+        System.out.println(codeControleren1_1);
+        
+        if (mastermind1_2.equals(code2)) {
+        	codeControleren1_2 = zwart;
+        }
+        	
+        else if (mastermind1_2.equals(code1)) {
+        	codeControleren1_2 = wit;
+        }
+        
+        else if (mastermind1_2.equals(code3)) {
+        	codeControleren1_2 = wit;
+        }
+        
+        else if (mastermind1_2.equals(code4)) {
+        	codeControleren1_2 = wit;
+        }
+        
+        else {
+             codeControleren1_2 = niks;
+        }
+        
+        System.out.println(codeControleren1_2);
+        
+        if (mastermind1_3.equals(code3)) {
+        	codeControleren1_3 = zwart;
+        }
+        
+        else if (mastermind1_3.equals(code1)) {
+        	codeControleren1_3 = wit;
+        }
+        
+        else if (mastermind1_3.equals(code2)) {
+        	codeControleren1_3 = wit;
+        }
+        
+        else if (mastermind1_3.equals(code4)) {
+        	codeControleren1_3 = wit;
+        }
+          
+        else {
+        	codeControleren1_3 = niks;
+        }
+        
+        System.out.println(codeControleren1_3);
+        
+        if (mastermind1_4.equals(code4)) {
+        	codeControleren1_4 = zwart;
+        }
+        
+        else if (mastermind1_4.equals(code1)) {
+        	codeControleren1_4 = wit;
+        }
+        
+        else if (mastermind1_4.equals(code2)) {
+        	codeControleren1_4 = wit;
+        }
+        
+        else if (mastermind1_4.equals(code3)) {
+        	codeControleren1_4 = wit;
+        }
+        
+        else {
+        	codeControleren1_4 = niks;
+        }
+        
+        System.out.println(codeControleren1_4);
 		
 		System.out.println("Code 2");
 		String mastermind2_1 = sc.next();
