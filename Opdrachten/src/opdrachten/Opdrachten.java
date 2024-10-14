@@ -182,9 +182,14 @@ public class Opdrachten {
 //		System.out.println(0b11);
 //		System.out.println(0b10+0b11);
 		
-		//opdracht 18
+		//opdracht 18 
 		
+//		System.out.println(""+0b10);
+//		System.out.println(0b11);
+//		System.out.println(0b10*0b11);
 		
+		//opdracht 19 t/m 30 niet mogelijk
+	       
 		
 		
 		sc.close();
