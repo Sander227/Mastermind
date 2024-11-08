@@ -23,8 +23,7 @@ public class masterMind {
 		System.out.println("Welkom bij MasterMind");
 		System.out.println("Je hebt 10 kansen om de code te kraken");
 		System.out.println("Er zijn 6 kleuren waar je uit kan kiezen: rood, oranje, geel, groen, blauw en paars");
-		System.out.println(
-				"Na elke keer dat je geraden hebt krijg je een hint: Zwart = goed, Wit = Wel in de code maar verkeerde plek, - = niet erin");
+		System.out.println("Na elke keer dat je geraden hebt krijg je een hint: Zwart = goed, Wit = Wel in de code maar verkeerde plek, - = niet erin");
 		System.out.println("Typ je code van 4 kleuren in in:");
 		int teller = 1;
 		int ronde = 0;

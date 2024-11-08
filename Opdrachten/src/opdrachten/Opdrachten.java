@@ -189,7 +189,31 @@ public class Opdrachten {
 //		System.out.println(0b10*0b11);
 		
 		//opdracht 19 t/m 30 niet mogelijk
-	       
+//	       
+//		opdracht 31 snap ik niet
+		
+//		opdracht 32
+		
+		System.out.println("Enter your first number");
+		int num1 = sc.nextInt();
+		System.out.println("Enter your second number");
+		int num2 = sc.nextInt();
+		
+		if (num1!=num2) {
+			System.out.println(num1 +"!="+ num2);
+		}
+		if (num1<num2) {
+			System.out.println(num1 +"<"+ num2);
+		}
+		if (num1<=num2) {
+			System.out.println(num1 +"<="+ num2);
+		}
+		
+		
+		
+//		opdracht 33
+//		
+//		int number1 = sc.nextInt();
 		
 		
 		sc.close();
